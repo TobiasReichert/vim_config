@@ -9,6 +9,11 @@ set relativenumber   "show relativenumbers
 set hlsearch         "highlight search results
 set clipboard=unnamedplus "use sys clipboard C-S-c
 
+"                 >>> Copy / Paste <<<
+nmap <C-S-V> "+gP
+imap <C-S-V> <ESC><C-V>i
+vmap <C-S-C> "+y
+
 "                 >>> Python <<<
 " https://wiki.python.org/moin/Vim
 syntax on
