@@ -11,7 +11,7 @@ set clipboard=unnamedplus "use sys clipboard C-S-c
 
 "                 >>> Copy / Paste <<<
 nmap <C-S-V> "+gP
-imap <C-S-V> <ESC><C-V>i
+imap <C-S-V> <ESC><C-S-V>i
 vmap <C-S-C> "+y
 
 "                 >>> Python <<<
