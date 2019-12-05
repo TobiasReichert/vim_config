@@ -9,6 +9,11 @@ set relativenumber   "show relativenumbers
 set hlsearch         "highlight search results
 set clipboard=unnamedplus "use sys clipboard C-S-c
 
+"                 >>> Files, backups and undo <<<
+set nobackup
+set nowb
+set noswapfile
+
 "                 >>> Copy / Paste <<<
 nmap <C-S-V> "+gP
 imap <C-S-V> <ESC><C-S-V>i
